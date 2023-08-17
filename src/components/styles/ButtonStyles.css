@@ -1,0 +1,19 @@
+button {
+  text-transform: capitalize;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}
+button.btn1 {
+  background: var(--redColor);
+  color: var(--whiteColor);
+  border: 2px solid var(--redColor);
+}
+button.btn2 {
+  background: transparent;
+  color: var(--grayColor);
+  border: 2px solid var(--grayColor);
+}
